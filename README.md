@@ -10,6 +10,23 @@ In question number two, need to find below things as:
  3.3 2001-2010
  3.4 2011-2020
  
+ Please find details of attached zip files:
+ 1] Second_question_output_csv_for_1981_1990_Male_Female.zip : This zip contains output files genrated by PIG Script.
+ 
+ 2] csv_genrated_using_hive_for_sales_1981_1990_M_F.zip  : This zip file contains csv files which is genrated by HIVE  & used by PIG for processing.
+ 
+ # The output is genrated in the following format:
+ Department_name Decade     Gender salary   from_Date   AVG_Salary
+ Sales	          1991-2000	  M	    79113	  1989-12-31	  84255.92386918287
+ 
+ For this Questions Total 72 output files will genrate i.e
+
+Decade : 1981-1990,1991-2000,2001-2010,2011-2020
+For every decade there are 2 files i.e for Male & Female & for one department there will be 8 files & there are total 9 departments show there will be total 72 output files.
+
+I have attached files for two decade i.e 1981-1990 & 1991-2000 for sales department with Male & Female in the same pattarn we have to gernate all the outputs.
+
+ 
  * Please find steps detail below:
  
 # Following HIVE query is used to get the males from sales department in the decade of 1991-2000
